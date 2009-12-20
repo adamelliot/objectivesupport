@@ -6,6 +6,8 @@
 //  Copyright 2008 yFactorial, LLC. All rights reserved.
 //
 
+#import "ActiveSupportInflector.h"
+
 @interface NSString (InflectionSupport)
 
 /**
@@ -38,5 +40,17 @@
  * Return a copy of the string with the first letter capitalized.
  */
 - (NSString *)toClassName;
+
+/**
+ * Return a pluralized string.
+ * [@"thing" pluralize] //> @"things"
+ */
+- (NSString *)pluralize;
+
+/**
+ * Return a singularized string.
+ * [@"things" singularize] //> @"thing"
+ */
+- (NSString *)singularize;
 
 @end

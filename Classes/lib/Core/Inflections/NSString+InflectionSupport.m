@@ -91,4 +91,14 @@
 										 withString:[[result substringWithRange:NSMakeRange(0,1)] uppercaseString]];
 }
 
+- (NSString *)pluralize {
+  ActiveSupportInflector *inflector = [[[ActiveSupportInflector alloc] init] autorelease];
+  return [inflector pluralize:self];
+}
+
+- (NSString *)singularize {
+  ActiveSupportInflector *inflector = [[[ActiveSupportInflector alloc] init] autorelease];
+  return [inflector singularize:self];
+}
+
 @end

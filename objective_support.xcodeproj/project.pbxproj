@@ -79,6 +79,7 @@
 		35CC9B710F5C9F0600BAE304 /* TestClassTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CC9B6F0F5C9F0600BAE304 /* TestClassTop.m */; };
 		35CC9B740F5C9F1000BAE304 /* TestClassMiddle.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CC9B730F5C9F1000BAE304 /* TestClassMiddle.m */; };
 		35CC9B750F5C9F1000BAE304 /* TestClassMiddle.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CC9B730F5C9F1000BAE304 /* TestClassMiddle.m */; };
+		662D411110DEAB3F00C349B8 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 662D411010DEAB3F00C349B8 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +167,7 @@
 		35CC9B6F0F5C9F0600BAE304 /* TestClassTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClassTop.m; sourceTree = "<group>"; };
 		35CC9B720F5C9F1000BAE304 /* TestClassMiddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClassMiddle.h; sourceTree = "<group>"; };
 		35CC9B730F5C9F1000BAE304 /* TestClassMiddle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClassMiddle.m; sourceTree = "<group>"; };
+		662D411010DEAB3F00C349B8 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = /usr/lib/libicucore.dylib; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +179,7 @@
 				23812C700F42028E006AB663 /* UIKit.framework in Frameworks */,
 				23812C720F4202A0006AB663 /* Foundation.framework in Frameworks */,
 				23812C740F4202B8006AB663 /* CoreGraphics.framework in Frameworks */,
+				662D411110DEAB3F00C349B8 /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +277,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				662D411010DEAB3F00C349B8 /* libicucore.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
